@@ -1,0 +1,298 @@
+/* ===========================
+   Mido Tech Gadgets and Accessories
+   External Stylesheet
+   =========================== */
+
+/* ----- Base ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8a2c8;
+    color: #36454f;
+    line-height: 1.6;
+}
+
+/* ----- Navigation ----- */
+nav {
+    background-color: #a56ca5;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+nav a {
+    color: #fffdd0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #fffdd0;
+    color: #a56ca5;
+}
+
+/* ----- Hero Section ----- */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* ----- Home Cards ----- */
+.home-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.home-card {
+    background-color: #fff0f5;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ----- Products Section ----- */
+.product-section {
+    padding: 40px 20px;
+}
+
+.product-card {
+    background-color: #fff0f5;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto; /* makes each card centered and separated */
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #36454f;
+}
+
+.product-card p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shop-btn {
+    background-color: #a56ca5;
+    color: #fffdd0;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+    background-color: #8b458b;
+}
+
+/* ----- Categories ----- */
+.categories {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.categories ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.categories ul li {
+    display: inline-block;
+    background-color: #a56ca5;
+    color: #fffdd0;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments for products */
+@media (max-width: 768px) {
+    .product-card {
+        width: 95%;
+        margin: 20px auto;
+    }
+}
+
+/* ----- Forms ----- */
+/* ----- Contact Layout ----- */
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+    padding: 40px;
+}
+
+.side-details,
+.form-container,
+.map-container-panel {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.map-container-panel iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+/* ----- Enquiry Page Layout ----- */
+.enquiry-wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    align-items: flex-start;
+}
+
+/* Left panel */
+.enquiry-info {
+    flex: 1;
+    background-color: #fff0f5;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Right panel (form) */
+.enquiry-form {
+    flex: 1;
+    background-color: #fff0f5;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.enquiry-form input,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #36454f;
+    border-radius: 5px;
+}
+
+/* Labels */
+.enquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Button */
+.enquiry-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a56ca5;
+    color: #fffdd0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enquiry-form button:hover {
+    background-color: #8b458b;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .enquiry-wrapper {
+        flex-direction: column;
+    }
+}
+/* ----- Footer ----- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a56ca5;
+    color: #fffdd0;
+    margin-top: 30px;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .home-info,
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-card,
+    .product-card {
+        width: 90%;
+    }
+}
