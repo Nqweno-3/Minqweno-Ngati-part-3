@@ -1,3 +1,5 @@
+   UPDATED README FILE
+
 TABLE OF CONTENT  
 ORGANISATION OVERVIEW........1
 
@@ -17,7 +19,7 @@ BUDGET....8
 
 REFERENCES......9
 
-                                             MIDO Tech Gadgets And  Accessories
+                                             MIDO Tech Gadgets And Accessories
 ORGANISATIONAL OVERVIEW
 Technology is an essential part of our daily lives, we depend on tech gadgets and accessories for school, work and other personal and non-personal use. Mido tech gadgets and accessories is a small retail store that specialises in computer and hardware sales. Our focus is to create a website for our store to market its products and provide important business information to our online customers. Mido tech gadgets and accessories was established in 2019 in Mthatha, growing from a small, semi-developed start up to a leading SA online retailer of computer hardware and tech accessories, driven by a zest for tech and great services. Our mission is to provide people with the best tech, prices and guidance. We envision being the go-to tech hub in Africa and all around the world, providing the best connection and services through our products. If you are part of the tech-savvy crowd in South Africa and abroad then this is the right place for you.
 
