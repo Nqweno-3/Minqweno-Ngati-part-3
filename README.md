@@ -113,7 +113,7 @@ Nielsen Norman Group. (n.d.). Usability Principles
 
 Mozilla Developer Network. (n.d.). Web development documentation.
 
-Change Log - Mido Tech Gadgets and Accessories Website 
+CHANGE LOG - Mido Tech Gadgets and Accessories Website 
 
  
 
