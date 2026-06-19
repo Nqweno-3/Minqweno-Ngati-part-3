@@ -151,11 +151,11 @@ Displays welcome alert message
 
 Products Page 
 
-Added multiple product buttons  
+Implemented interactive product buttons for product selection 
 
 Used querySelectorAll for selecting buttons  
 
-Displays product name when clicked  
+Displays product name
 
  
 
@@ -174,8 +174,6 @@ Checks if fields are empty
 Validates email format  
 
 Displays success message after submission  
-
- 
 
 Enquiry Form (EmailJS Integration) 
 
@@ -197,7 +195,7 @@ Added error handling using .catch()
 
 Improvements 
 
-Improved code structure using one global JavaScript file  
+Centralised all JavaScript functionality into a single external script file for easier maintenance 
 
 Added conditional checks to prevent errors on pages  
 
