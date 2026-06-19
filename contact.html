@@ -6,7 +6,6 @@
     <title>Mido Tech Gadgets - Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
 <nav>
     <a href="index.html">Home</a>
@@ -18,7 +17,7 @@
 
 <section class="hero">
     <h1>Contact Us</h1>
-    <p>We are located in Mthatha, South Africa.</p>
+    <strong><p>We are located in Mthatha, South Africa.</p></strong>
 </section>
 
 <section class="contact-form">
@@ -103,68 +102,8 @@
               <h4>Email Us</h4>
 
               <p>computerworld@gmail.com</p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
- 
-
-      <!-- COLUMN 2: Main Form Panel -->
-
-      <div class="form-container">
-
-        <h2>Send Message</h2>
-
-       
-
-        <form id="contactForm">
-
-          <div class="input-group">
-
-            <label for="name">Name</label>
-
-            <input type="text" id="name" required placeholder="Your Name">
-
-          </div>
-
-         
-
-          <div class="input-group">
-
-            <label for="email">Email</label>
-
-            <input type="email" id="email" required placeholder="Your Email">
-
-          </div>
-
-         
-
-          <div class="input-group">
-
-            <label for="message">Message</label>
-
-            <textarea id="message" rows="4" required placeholder="Your Message..."></textarea>
-
-          </div>
-
-         
-
-          <button type="submit" class="submit-btn">Send Message</button>
-
-        </form>
-
- 
-
-      <!-- COLUMN 3: Balanced Google Map Panel -->
-
-      <div class="map-container-panel">
-
-        <iframe
+<br>
+<iframe
 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2873.719813291583!2d-93.2642106!3d44.0684617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f6db06f3621fc7%3A0xc3b84ca25514eeef!2sSugar%20Camp%20Rd%2C%20Minnesota!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
 
@@ -181,6 +120,67 @@
           referrerpolicy="no-referrer-when-downgrade">
 
         </iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+ 
+
+      <!-- COLUMN 2: Main Form Panel -->
+
+      <div class="enquiry-form">
+
+        <h2>Send Message</h2>
+
+       
+
+        <form id="contactForm">
+
+          <div class="input-group">
+
+            <label for="name">Name</label>
+<br>
+            <input type="text" id="name" name="name"  placeholder="Your Name">
+<br>
+          </div>
+
+         
+
+          <div class="input-group">
+
+            <label for="email">Email</label>
+<br>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+<br>
+          </div>
+
+         
+
+          <div class="input-group">
+
+            <label for="message">Message</label>
+<br>
+            <textarea id="message" rows="4" name="message" placeholder="Your Message..."></textarea>
+<br>
+          </div>
+
+         
+
+          <button type="submit" class="submit-btn">Send Message</button>
+
+        </form>
+
+ 
+
+      <!-- COLUMN 3: Balanced Google Map Panel -->
+
+      <div class="map-container-panel">
+
+        
 
       </div>
 
@@ -201,7 +201,16 @@
 <footer>
     <p>&copy; 2026 Mido Tech Gadgets and Accessories | All Rights Reserved</p>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 <script src="javascript/script.js"></script>
+<!-- LIGHTBOX (ADD THIS HERE) -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Preview">
+</div>
+
 
 </body>
 </html>

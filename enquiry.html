@@ -34,18 +34,22 @@
     </div>
 
     <div class="enquiry-form">
-        <form action="#" method="post">
+        <form class="enquiryForm">
 
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="tel" placeholder="Phone Number">
-            <input type="text" placeholder="Service Needed">
+    <input type="text" id="name" name="from_name" placeholder="Full Name" >
 
-            <textarea rows="5" placeholder="Your Message" required></textarea>
+    <input type="email" id="email" name="from_email" placeholder="Email Address" >
 
-            <button type="submit">Submit Enquiry</button>
+    <input type="tel" name="phone" placeholder="Phone Number">
 
-        </form>
+    <input type="text" id="service" name="service" placeholder="Service Needed">
+
+    <textarea name="message" id="message" rows="5" placeholder="Your Message" ></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+
+</form>
+        
     </div>
 
 </section>
@@ -53,7 +57,15 @@
 <footer>
     <p>&copy; 2026 Mido Tech Gadgets and Accessories</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 <script src="javascript/script.js"></script>
+<!-- LIGHTBOX (ADD THIS HERE) -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Preview">
+</div>
+
 
 </body>
 </html>
