@@ -28,7 +28,7 @@ Navigation & Footer: #a56ca5 – deep purple for branding consistency
 Accent Colour: #fffdd0 – cream tone for text and button contrast
 Hover Accent: #8b458b – darker purple for interactive feedback
 Card Background: #fff0f5 – soft pink used for product and form cards
-Text Colour: #36454f – dark slate grey for readability
+Text Colour: #36454f – dark slate grey for readability.
 This colour system creates a consistent, soft, and modern e-commerce aesthetic.
 
 TYPOGRAPHY 
