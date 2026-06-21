@@ -32,9 +32,12 @@ Text Colour: #36454f – dark slate grey for readability.
 This colour system creates a consistent, soft, and modern e-commerce aesthetic.
 
 TYPOGRAPHY 
-The website uses a simple and highly readable typography system:
-Font Family: Arial, Helvetica, sans-serif
-Chosen for its clarity, simplicity, and cross-device compatibility
+The website uses a simple and highly readable typography system.
+
+Font Family: Arial, Helvetica, sans-serif. 
+
+Chosen for its clarity, simplicity, and cross-device compatibility.
+
 Ensures readability across all screen sizes
 Maintains a clean, modern, and minimal e-commerce look
 Font sizes are structured using a clear hierarchy:
