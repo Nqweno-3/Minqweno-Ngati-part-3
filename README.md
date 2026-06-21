@@ -7,12 +7,12 @@ The project focuses on building a realistic user experience using only front-end
 Purpose of the Project:
 The purpose of this project is to demonstrate practical front-end development skills by building a fully interactive website that simulates real-world e-commerce functionality.
 The project aims to:
-Create a clean and user-friendly online store interface
-Demonstrate interactive front-end functionality using JavaScript
-Implement form validation and user feedback systems.
-Simulate real-world customer enquiry handling
-Apply consistent UI/UX design principles
-Design System (UI, Colours & Visual Identity)
+•Create a clean and user-friendly online store interface
+•Demonstrate interactive front-end functionality using JavaScript
+•Implement form validation and user feedback systems
+•Simulate real-world customer enquiry handling
+•Apply consistent UI/UX design principles
+•Design System (UI, Colours & Visual Identity)
 The website uses a soft pastel-themed design with a strong purple identity to create a modern and visually appealing aesthetic.
 
 COLOUR PALETTE 
