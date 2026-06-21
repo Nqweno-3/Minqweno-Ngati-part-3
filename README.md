@@ -1,5 +1,6 @@
 Mido Tech Gadgets and Accessories
 Project Overview
+
 Mido Tech Gadgets and Accessories is a website designed to simulate a modern online gadget store. The website allows users to browse products, interact with buttons, submit enquiries, and receive automated email responses.
 The project focuses on building a realistic user experience using only front-end technologies (HTML, CSS, and JavaScript), enhanced with EmailJS for email functionality without requiring a backend server.
 
